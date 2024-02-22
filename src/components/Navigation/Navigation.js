@@ -53,7 +53,7 @@ function Navigation() {
       <Navbar.Toggle />
       <Navbar.Collapse>
         <Nav>
-          <Link to="/schedule" className="nav-link" role="button">
+          <Link to="/the-day" className="nav-link" role="button">
             <ScheduleNavText />
           </Link>
           <Link to="/travel" className="nav-link" role="button">

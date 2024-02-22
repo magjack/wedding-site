@@ -4,11 +4,10 @@ import { LANGUAGE } from "actions/constants"
 
 export default {
     [LANGUAGE.EN]: {
-        Heading: () => <>Schedule</>,
+        Heading: () => <>The Day</>,
         SubHeading: () => (
             <span>
-                Here's what to expect during our wedding weekend. We can't wait
-                to celebrate with you!
+                Here's what to expect during our special day
             </span>
         ),
     }

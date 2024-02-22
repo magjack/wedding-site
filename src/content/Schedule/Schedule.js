@@ -5,52 +5,52 @@ import { LANGUAGE } from "actions/constants"
 export default {
     [LANGUAGE.EN]: [
         {
-            Title: () => <>Welcome &ldquo;Pica-pica&ldquo;</>,
-            Date: () => <>TBD</>,
-            Time: () => null,
-            Location: () => <>La Barraca</>,
+            Title: () => <>Ceremony & Dinner</>,
+            Date: () => <>07/06/2024</>,
+            Time: () => '13:30',
+            Location: () => <>Chaterherault</>,
             locationLink:
-                "https://www.tripadvisor.com/Restaurant_Review-g670769-d6540538-Reviews-Restaurant_La_Barraca-L_Ampolla_Terres_de_l_Ebre_Province_of_Tarragona_Catalonia.html",
+                "https://www.sllcweddings.co.uk/info/1/chatelherault_country_park",
             Address: () => (
                 <>
-                    <p>Passeig de l'Arenal, s/n</p>
-                    <p>43895 L'Ampolla, Catalonia, Spain</p>
+                    <p>Carlisle Rd, Ferniegair</p>
+                    <p>Hamilton</p>
+                    <p>ML3 7UE</p>
                 </>
             ),
             mapLink:
-                "https://www.google.com/maps/place/Restaurant+La+Barraca/@40.803093,0.699406,15z/data=!4m5!3m4!1s0x0:0x4c06a459a2cf6826!8m2!3d40.803093!4d0.699406",
+                "https://maps.app.goo.gl/tj7AxCXNTQ3ZCX8XA",
             Details: () => (
                 <>
                     <p>
-                        There will be a few light bites in addition to drinks by
-                        the Mediterranean. Stop by whenever works for you
-                        between the indicated hours!
+                        We will be starting Ceremony at 2pm. So please be seated no later than 1:45pm.
+                        There will then be a drinks reception while the couple go for photos before
+                        convening again for speaches and a meal. 
+
+                        A coach will then arrive at 6:30pm to take guests to the reception venue in Glasgow. 
                     </p>
                 </>
             ),
         },
         {
-            Title: () => <>Wedding</>,
-            Date: () => <>TBD</>,
-            Time: () => null,
-            Location: () => <>Les Moles</>,
-            locationLink: "http://www.lesmoles.com/index.asp?i=en",
+            Title: () => <>Reception</>,
+            Date: () => <>07/06/2024</>,
+            Time: () => '19:30',
+            Location: () => <>The Piping Center</>,
+            locationLink: "https://www.thepipingcentre.co.uk/",
             Address: () => (
                 <>
-                    <p>Carretera de la Sénia, Km. 2</p>
-                    <p>43550 Ulldecona, Catalonia, Spain</p>
+                    <p>30-34 McPhater St</p>
+                    <p>Glasgow</p>
+                    <p>G4 0HW</p>
                 </>
             ),
             mapLink:
-                "https://www.google.com/maps/place/Les+Moles/@40.6038903,0.4204865,15z/data=!4m5!3m4!1s0x0:0xc7db2358e345721f!8m2!3d40.6038903!4d0.4204865",
+                "https://maps.app.goo.gl/EQFSf6eEMHVW3Vua9",
             Details: () => (
                 <>
                     <p>
-                        The ceremony, dinner and party will take place at Les
-                        Moles, a family - run business that partly occupies an
-                        old farm that takes its names from the mill stones
-                        carved out of the local quarry (and it has a Michelin
-                        star!).
+                        We will continue the celebration being joined by additional guests at the piping center for a reception. 
                     </p>
                 </>
             ),
