@@ -1,17 +1,49 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React, { useEffect, useContext } from "react";
+import { useCookies } from "react-cookie";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { CookiesProvider } from "react-cookie";
+import ReactDOM from "react-dom";  
+import get from "lodash/get";
+import isNull from "lodash/isNull";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+import "./index.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import AppLayout from "./views/AppLayout/AppLayout";
+import { LANGUAGE } from "./actions/constants";
+
+import { StoreProvider, Store } from "./store";
+import * as serviceWorker from "./serviceWorker";
+
+const App = () => {
+  const { dispatch } = useContext(Store);
+
+  const [cookies, setCookie] = useCookies(["language"]);
+  const language = get(cookies, ["language"], null);
+
+  useEffect(() => {
+    if (isNull(language)) {
+      setCookie("language", LANGUAGE.EN, { path: "/" });
+    }
+  }, [dispatch, setCookie, language]);
+
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<AppLayout />} />
+      </Routes>
+    </BrowserRouter>
+  );
+};
+
+const Root = () => (
+  <CookiesProvider>
+    <StoreProvider>
+      <App />
+    </StoreProvider>
+  </CookiesProvider>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReactDOM.render(<Root />, document.getElementById("root"));
+
+serviceWorker.unregister();
