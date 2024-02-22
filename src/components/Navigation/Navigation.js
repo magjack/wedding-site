@@ -65,9 +65,6 @@ function Navigation() {
           <Link to="/registry" className="nav-link" role="button">
             <RegistryNavText />
           </Link>
-          <Link to="/rsvp" className="nav-link" role="button">
-            <RSVPNavText />
-          </Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

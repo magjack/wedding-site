@@ -5,29 +5,26 @@ import { LANGUAGE } from "actions/constants"
 export default {
     [LANGUAGE.EN]: [
         {
-            Question: () => <>Is Chicago coming?</>,
-            Answer: () => <>O-B-V-I-O-U-S-L-Y.</>,
+            Question: () => <>Is there provided transport to the ceremony venue</>,
+            Answer: () => <>No we are asking you to get yourself to the ceremony.
+                            A coach will be taking you back to Glasgow City Center for the reception</>,
         },
         {
-            Question: () => <>Is there a bus to and from the wedding site?</>,
+            Question: () => <>Can I bring a plus one?</>,
             Answer: () => (
                 <>
-                    Yes, because we want you to be able to party your face off.
-                    There will be buses from Tortosa and L'Ampolla to Les Moles.
-                    Schedule will be posted soon.
+                    Unfortunately we are very limited for numbers so we need to stick to the people on the invite for the time being. 
+                    If some people are unable to make it we can then consider some plus ones.
                 </>
             ),
         },
         {
-            Question: () => <>What languages do the guests speak?</>,
+            Question: () => <>Are kids invited?</>,
             Answer: () => (
                 <>
-                    Half of the people speak Catalan and Spanish (some of them
-                    also know English). There will be people visiting from
-                    Lebanon that speak Arabic and English. Guests from the
-                    States speak English and maybe other languages.
-                    Communication goes beyond language, so we're sure everyone
-                    is going to have a blast regardless!
+                    Children are welcome to join us, but due to venue space limitations, we are only able to accommodate those explicitly named on the invitation.
+                    We appreciate your understanding and cooperation in helping us manage the event smoothly. Again if we has some people unable to join then we can consider inviting more. 
+                    Please note we made this invitation list a few years ago and alot of new faces have been appearing since. 
                 </>
             ),
         },
@@ -36,9 +33,10 @@ export default {
             Answer: () => (
                 <>
                     The wedding will be formal. We recommend long or elegant
-                    cocktail dresses for ladies and suits for gents. White is
-                    reserved for the bride. For the Pica-pica party casual
-                    attire is preferred.
+                    cocktail dresses for ladies and kilts/suits for gents.
+                    It will be the start of June and we are 
+                    hoping for warm weather.
+                    White is reserved for the bride.
                 </>
             ),
         },
@@ -46,8 +44,7 @@ export default {
             Question: () => <>What is the weather like?</>,
             Answer: () => (
                 <>
-                    The weather during this time of year is usually sunny and in
-                    the 80s during the day and 70s at night (ºF).
+                    Hopefully good but you know Scotland. 
                 </>
             ),
         },

@@ -8,7 +8,7 @@ export default {
         travel: () => <span>Travel</span>,
         thingsToDo: () => <span>Things to Do</span>,
         faq: () => <span>FAQs</span>,
-        registry: () => <span>Registry</span>,
+        registry: () => <span>Gifts</span>,
         rsvp: () => <span>RSVP</span>,
         manageRsvp: () => <span>Manage RSVP</span>,
     }
