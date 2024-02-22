@@ -30,7 +30,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<AppLayout />} />
+        <Route path="*" element={<AppLayout />} />
       </Routes>
     </BrowserRouter>
   );

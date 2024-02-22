@@ -49,7 +49,7 @@ function Navigation() {
   return (
     <Navbar variant="dark" expand="lg" sticky="top" className={styles.navigation}>
       <Link to="/" className={classNames("navbar-brand", styles.brand)}>
-        S & L
+        J & E
       </Link>
       <Navbar.Toggle />
       <Navbar.Collapse>
