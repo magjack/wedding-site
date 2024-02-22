@@ -59,9 +59,6 @@ function Navigation() {
           <Link to="/travel" className="nav-link" role="button">
             <TravelNavText />
           </Link>
-          <Link to="/things-to-do" className="nav-link" role="button">
-            <ThingsToDoNavText />
-          </Link>
           <Link to="/faq" className="nav-link" role="button">
             <FAQNavText />
           </Link>

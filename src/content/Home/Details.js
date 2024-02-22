@@ -11,7 +11,7 @@ export default {
             <div className="d-flex flex-column">
                 <div>
                     
-                    07/06/2024
+                    07/06/2024 2PM BE THERE !
 
                 </div>
                 <div>It will be worth the wait...</div>
