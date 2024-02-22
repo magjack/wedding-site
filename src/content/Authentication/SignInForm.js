@@ -16,18 +16,5 @@ export default {
         ),
         emailPlaceholder: "Email",
         passwordPlaceholder: "Password",
-    },
-    [LANGUAGE.CAT]: {
-        Header: () => <>Per favor, inicieu la sessió</>,
-        SubmitButton: () => <>Inicia sessió</>,
-        SubmitButtonLoading: () => <>Iniciant sessió...</>,
-        NoAccountPrompt: () => (
-            <>
-                No teniu compte?{" "}
-                <Link to="/auth/signup">Registreu-vos aquí.</Link>
-            </>
-        ),
-        emailPlaceholder: "Email",
-        passwordPlaceholder: "Contrasenya",
-    },
+    }
 }

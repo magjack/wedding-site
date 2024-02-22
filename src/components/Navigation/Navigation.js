@@ -30,8 +30,7 @@ function Navigation() {
   const handleSelectLanguage = (lang) => setCookie("language", lang, { path: "/" });
 
   const languageCodes = {
-    [LANGUAGE.CAT]: "ES-CT",
-    [LANGUAGE.EN]: "US",
+    [LANGUAGE.EN]: "UK",
   };
 
   const {
@@ -72,39 +71,6 @@ function Navigation() {
           <Link to="/rsvp" className="nav-link" role="button">
             <RSVPNavText />
           </Link>
-        </Nav>
-        <Nav className="ml-auto">
-          {isAuthenticated ? (
-            <Dropdown as={NavItem}>
-              <Dropdown.Toggle as={Nav.Link}>{name}</Dropdown.Toggle>
-              <Dropdown.Menu alignRight>
-                <Dropdown.Item className={styles.email}>
-                  <strong>{email}</strong>
-                </Dropdown.Item>
-                <Dropdown.Item onClick={() => navigate("/rsvp")}>
-                  <ManageRSVPText />
-                </Dropdown.Item>
-              </Dropdown.Menu>
-            </Dropdown>
-          ) : (
-            <Link to="/auth" className="nav-link" role="button">
-              <SignInText />
-            </Link>
-          )}
-          <Dropdown as={NavItem}>
-            <Dropdown.Toggle as={Nav.Link}>
-              <ReactCountryFlag countryCode={languageCodes[selectLanguage(cookies)]} svg />{" "}
-              {selectLanguage(cookies)}
-            </Dropdown.Toggle>
-            <Dropdown.Menu alignRight>
-              <Dropdown.Item eventKey={LANGUAGE.EN} onClick={() => handleSelectLanguage(LANGUAGE.EN)}>
-                <ReactCountryFlag countryCode="US" svg /> {LANGUAGE.EN}
-              </Dropdown.Item>
-              <Dropdown.Item eventKey={LANGUAGE.CAT} onClick={() => handleSelectLanguage(LANGUAGE.CAT)}>
-                <ReactCountryFlag countryCode="ES-CT" svg /> {LANGUAGE.CAT}
-              </Dropdown.Item>
-            </Dropdown.Menu>
-          </Dropdown>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

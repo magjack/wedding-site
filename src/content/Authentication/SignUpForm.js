@@ -22,22 +22,5 @@ export default {
                 Already have an account? <Link to="/auth">Sign in here.</Link>
             </>
         ),
-    },
-    [LANGUAGE.CAT]: {
-        Header: () => <>Per favor, registreu-vos</>,
-        namePlaceholder: "Nom",
-        emailPlaceholder: "Email",
-        EmailHelp: () => (
-            <>Registreu-vos amb el mateix email on heu rebut la invitació.</>
-        ),
-        passwordPlaceholder: "Contrasenya",
-        SubmitButton: () => <>Registreu-vos</>,
-        SubmitButtonLoading: () => <>Registrant-vos...</>,
-        HaveAccountPrompt: () => (
-            <>
-                Ja teniu un compte?{" "}
-                <Link to="/auth">Inicieu la sessió aquí.</Link>
-            </>
-        ),
-    },
+    }
 }

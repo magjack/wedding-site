@@ -14,15 +14,5 @@ export default {
                 car.
             </>
         ),
-    },
-    [LANGUAGE.CAT]: {
-        Heading: () => <>Com arribar</>,
-        SubHeading: () => (
-            <>
-                Com arribo a aquesta preciosa regió de Catalunya anomenada les
-                Terres de l'Ebre? Es pot arribar amb autobús i tren, tot i que,
-                recomanem venir amb cotxe si voleu explorar la zona.
-            </>
-        ),
-    },
+    }
 }
