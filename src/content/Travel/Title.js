@@ -7,7 +7,7 @@ export default {
         Heading: () => <>Travel</>,
         SubHeading: () => (
             <>
-                The Ceremony and Dinner will be held at Chaterhault Country Park in Hamilton which is about a 20 minute drive from glasgow city center. 
+                The Ceremony and Dinner will be held at Chatelherault Country Park in Hamilton which is about a 20 minute drive from glasgow city center. 
                 We are asking guests to make their own way there for the Ceremony.
                 It is easily accessible by public transport detailed below.
                 A taxi is also a viable option.

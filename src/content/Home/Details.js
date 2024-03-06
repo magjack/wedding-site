@@ -29,7 +29,7 @@ export default {
                 </Button>
             </div>
         ),
-        Location: () => <span>Chaterherault</span>,
+        Location: () => <span>Chatelherault </span>,
         locationLink: "https://maps.app.goo.gl/5pjB7PddMkEnceSQ6",
         hashtag,
     }

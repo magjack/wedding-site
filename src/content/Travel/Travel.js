@@ -5,11 +5,11 @@ import { LANGUAGE } from "actions/constants"
 export default {
     [LANGUAGE.EN]: [
         {
-            Type: () => <>Chaterhault - Train</>,
+            Type: () => <>Chatelherault - Train</>,
             Details: () => (
                 <>
                     <p>
-                        There is a train station outside Chaterhault called Chatelherault station. You can come straight from Glasgow Central low level. 
+                        There is a train station outside Chatelherault called Chatelherault station. You can come straight from Glasgow Central low level. 
                         There is about a 0.5 mile walk from the station to the venue where we are getting married over country paths.
                     </p>
                 </>
@@ -37,7 +37,7 @@ export default {
             Details: () => (
                 <>
                     <p>
-                        It is a 22 minute and 16.5 mile drive from Glasgow Central to Chaterhault. At not peak times this will cost about
+                        It is a 22 minute and 16.5 mile drive from Glasgow Central to Chatelherault. At not peak times this will cost about
                         £20 pounds per taxi when I checked on the GlasGo Cab app. 
                     </p>
                 </>
