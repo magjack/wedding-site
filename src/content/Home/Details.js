@@ -14,16 +14,16 @@ const handleRSVP = () => {
 
 export default {
     [LANGUAGE.EN]: {
-        Title: () => <span>Emily and Jack are getting married!</span>,
+        Title: () => <span></span>,
         Date: () => (
             <div className="d-flex flex-column">
-                <div>
+                <h1>
                     
                     07/06/2024 2PM
 
-                </div>
-                <div>It will be worth the wait...</div>
-                <div>Please RSVP by April 1st</div>
+                </h1>
+                <h2>It will be worth the wait...</h2>
+                <h3>Please RSVP by April 1st</h3>
                 <Button variant="primary" onClick={handleRSVP}>
                     RSVP Now
                 </Button>

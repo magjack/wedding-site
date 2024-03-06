@@ -8,7 +8,7 @@ export default {
             Title: () => <>Ceremony & Dinner</>,
             Date: () => <>07/06/2024</>,
             Time: () => '13:30',
-            Location: () => <>chatelherault </>,
+            Location: () => <>Chatelherault </>,
             locationLink:
                 "https://www.sllcweddings.co.uk/info/1/chatelherault_country_park",
             Address: () => (
