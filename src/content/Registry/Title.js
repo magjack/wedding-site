@@ -8,8 +8,9 @@ export default {
         SubHeading: () => (
             <span>
                 Your presence is more than enough and we're not expecting any
-                gifts. If you would still like to give us a gift then we would love to receive any donations towards our honeymoon 
-                and future married life. A postbox will be made available at the reception or reach for transfer details
+                gifts. If you would still like to give us a gift then any cash 
+                contributions towards our honeymoon and future married life would be greatly appreciated.
+                A postbox will be made available at the reception or bank details are available if easier. 
             </span>
         ),
     }

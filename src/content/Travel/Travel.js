@@ -9,8 +9,8 @@ export default {
             Details: () => (
                 <>
                     <p>
-                        There is a train station outside Chaterhault. You can comes Straight from Glasgow Central. 
-                        There is about a 0.5 walk from the station to the lodge we are getting married in on country paths.
+                        There is a train station outside Chaterhault called Chatelherault station. You can come straight from Glasgow Central low level. 
+                        There is about a 0.5 mile walk from the station to the venue where we are getting married over country paths.
                     </p>
                 </>
             ),
@@ -37,7 +37,7 @@ export default {
             Details: () => (
                 <>
                     <p>
-                        It is a 22 min and 16.5 mile drive from Glasgow Central to Chaterhault. At not pick time this will cost about
+                        It is a 22 minute and 16.5 mile drive from Glasgow Central to Chaterhault. At not peak times this will cost about
                         £20 pounds per taxi when I checked on the GlasGo Cab app. 
                     </p>
                 </>
@@ -54,8 +54,7 @@ export default {
                 <>
                     <p>
                         The evening reception will be in the Piping center located in the north of the city center next to the theatre royal.
-                        There is a number of hotels in a walkable distance from here. 
-                        
+                        There is a number of hotels in a walkable distance from here.     
                     </p>
                 </>
             ),

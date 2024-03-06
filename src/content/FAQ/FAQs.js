@@ -7,7 +7,8 @@ export default {
         {
             Question: () => <>Is there provided transport to the ceremony venue</>,
             Answer: () => <>No we are asking you to get yourself to the ceremony.
-                            A coach will be taking you back to Glasgow City Center for the reception</>,
+                            A coach will be taking you back to Glasgow City Center for the reception.
+                            Travel options are detailed in the travel section</>,
         },
         {
             Question: () => <>Can I bring a plus one?</>,
@@ -22,8 +23,10 @@ export default {
             Question: () => <>Are kids invited?</>,
             Answer: () => (
                 <>
-                    Children are welcome to join us, but due to venue space limitations, we are only able to accommodate those explicitly named on the invitation.
-                    We appreciate your understanding and cooperation in helping us manage the event smoothly. Again if we has some people unable to join then we can consider inviting more. 
+                    Children are welcome to join us, but due to venue space limitations,
+                    we are only able to accommodate those explicitly named on the invitation.
+                    We appreciate your understanding and cooperation in helping us manage the event smoothly.
+                    Again if we has some people unable to join then we can consider inviting more. 
                     Please note we made this invitation list a few years ago and alot of new faces have been appearing since. 
                 </>
             ),
@@ -34,8 +37,7 @@ export default {
                 <>
                     The wedding will be formal. We recommend long or elegant
                     cocktail dresses for ladies and kilts/suits for gents.
-                    It will be the start of June and we are 
-                    hoping for warm weather.
+                    It will be the start of June and we are hoping for warm weather.
                     White is reserved for the bride.
                 </>
             ),

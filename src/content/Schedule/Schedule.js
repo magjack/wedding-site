@@ -23,9 +23,9 @@ export default {
             Details: () => (
                 <>
                     <p>
-                        We will be starting Ceremony at 2pm. So please be seated no later than 1:45pm.
-                        There will then be a drinks reception while the couple go for photos before
-                        convening again for speaches and a meal. 
+                        We will be starting the ceremony at 2pm. So please be seated no later than 1:30pm.
+                        After there will then be a drinks reception while the couple go for photos.
+                        There will then be some speeches and a dinner
 
                         A coach will then arrive at 6:30pm to take guests to the reception venue in Glasgow. 
                     </p>
@@ -50,7 +50,8 @@ export default {
             Details: () => (
                 <>
                     <p>
-                        We will continue the celebration being joined by additional guests at the piping center for a reception. 
+                        We will continue the celebration where we will
+                        be joined by additional guests at the piping center for a reception. 
                     </p>
                 </>
             ),
