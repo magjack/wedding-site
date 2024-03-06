@@ -1,8 +1,16 @@
 import React from "react"
+import Button from 'react-bootstrap/Button';
 
 import { LANGUAGE } from "actions/constants"
 
 const hashtag = "jackandemily"
+
+const handleRSVP = () => {
+    // Assuming you want to navigate to an external RSVP link
+    window.location.href = 'https://forms.gle/LMAVogmYCW1u3o6S8';
+  };
+
+
 
 export default {
     [LANGUAGE.EN]: {
@@ -15,6 +23,10 @@ export default {
 
                 </div>
                 <div>It will be worth the wait...</div>
+                <div>Please RSVP by April 1st</div>
+                <Button variant="primary" onClick={handleRSVP}>
+                    RSVP Now
+                </Button>
             </div>
         ),
         Location: () => <span>Chaterherault</span>,
