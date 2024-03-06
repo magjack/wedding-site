@@ -6,7 +6,7 @@ export default {
     [LANGUAGE.EN]: [
         {
             Question: () => <>Is there provided transport to the ceremony venue</>,
-            Answer: () => <>No we are asking you to get yourself to the ceremony.
+            Answer: () => <>No, we are asking you to get yourself to the ceremony.
                             A coach will be taking you back to Glasgow City Center for the reception.
                             Travel options are detailed in the travel section</>,
         },
