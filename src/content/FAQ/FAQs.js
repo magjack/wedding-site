@@ -35,7 +35,7 @@ export default {
             Question: () => <>What is the dress code?</>,
             Answer: () => (
                 <>
-                    The wedding will be formal. We recommend long or elegant
+                    The wedding will be formal but comfortable. We recommend long or elegant
                     cocktail dresses for ladies and kilts/suits for gents.
                     It will be the start of June and we are hoping for warm weather.
                     White is reserved for the bride.

@@ -35,15 +35,7 @@ function Details() {
                                 <Location />
                             </a>
                         </h2>
-                        <h3 className={styles.hashtag}>
-                            <a
-                                href={`https://www.instagram.com/explore/tags/${hashtag}`}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                {`#${hashtag}`}
-                            </a>
-                        </h3>
+                        
                     </Col>
                 </Row>
             </Container>
