@@ -25,17 +25,7 @@ function Details() {
                         </h1>
                         <h1 className={styles.date}>
                             <Date />
-                        </h1>
-                        <h2 className={styles.location}>
-                            <a
-                                href={locationLink}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <Location />
-                            </a>
-                        </h2>
-                        
+                        </h1>    
                     </Col>
                 </Row>
             </Container>

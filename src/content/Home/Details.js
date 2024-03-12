@@ -27,6 +27,16 @@ export default {
                     2PM
 
                 </h1>
+
+                <h1 className="Details_location__96lrq">
+                    <a
+                        href="https://maps.app.goo.gl/5pjB7PddMkEnceSQ6"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >
+                            <span>Chatelherault</span>
+                    </a>
+                </h1>
                 <hr/>
                 <br/>
                 <br/>
