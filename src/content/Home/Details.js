@@ -19,10 +19,21 @@ export default {
             <div className="d-flex flex-column">
                 <h1>
                     
-                    07/06/2024 2PM
+                    Seventh of June 2024
 
                 </h1>
+                <h1>
+                    
+                    2PM
+
+                </h1>
+                <hr/>
+                <br/>
+                <br/>
                 <h2>It will be worth the wait...</h2>
+                <hr/>
+                <br/>
+                <br/>
                 <h3>Please RSVP by April 1st</h3>
                 <Button variant="primary" onClick={handleRSVP}>
                     RSVP Now
