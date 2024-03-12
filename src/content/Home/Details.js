@@ -19,7 +19,7 @@ export default {
             <div className="d-flex flex-column">
                 <h1>
                     
-                    Seventh of June 2024
+                    Friday Seventh of June 2024
 
                 </h1>
                 <h1>
