@@ -25,7 +25,7 @@ export default {
                     <p>
                         We will be starting the ceremony at 2pm. So please be seated no later than 1:30pm.
                         After there will then be a drinks reception while the couple go for photos.
-                        There will then be some speeches and a dinner
+                        There will then be some speeches and dinner.
 
                         A coach will then arrive at 6:30pm to take guests to the reception venue in Glasgow. 
                     </p>
