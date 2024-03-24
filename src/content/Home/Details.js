@@ -44,7 +44,7 @@ export default {
                 <hr/>
                 <br/>
                 <br/>
-                <h3>Please RSVP by April 8th</h3>
+                <h3>Please RSVP by April 8<sup>th</sup></h3>
                 <Button variant="primary" onClick={handleRSVP}>
                     RSVP Now
                 </Button>
