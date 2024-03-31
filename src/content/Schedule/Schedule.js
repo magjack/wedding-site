@@ -81,7 +81,7 @@ export default {
                         If guests can arrvive for 7.15pm. The couple will be cutting the cake and having their first dance at 7.40pm.
                         There will be an evening buffet served at about 9.30 pm 
                     </p>
-                    <p>Please RSVP with the link below</p>
+                    <p>Please RSVP with the link below by May 1<sup>st</sup></p>
 
                     <a href="https://forms.gle/1AVf5o2n3ciem7kg6" className="btn btn-primary" role="button">
                         RSVP Reception

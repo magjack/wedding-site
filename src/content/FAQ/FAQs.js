@@ -38,9 +38,13 @@ export default {
                     The wedding will be formal but comfortable. We recommend long or elegant
                     cocktail dresses for ladies and kilts/suits for gents.
                     It will be the start of June and we are hoping for warm weather.
-                    White is reserved for the bride.
+                    White is reserved for the bride. Evening reception guests can be a bit more relaxed but still smart.
                 </>
             ),
+        },
+        {
+            Question: () => <>Am I a day or night guest</>,
+            Answer: () => <>Day guests recevied a white invitation in the post, Night guests received a black digital invitation.</>,
         },
         {
             Question: () => <>What is the weather like?</>,
