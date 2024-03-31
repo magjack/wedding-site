@@ -1,23 +1,22 @@
 import React from "react"
-import { useCookies } from "react-cookie"
 import Container from "react-bootstrap/Container"
 
-import { selectLanguage } from "utilities/cookies"
 import { schedule, title } from "content/Schedule"
 import { Header } from "components/Header"
 import { Item } from "components/Item"
-import headerImg from "photos/Chatelherault-Country-Park.webp"
+import headerImgDay from "photos/Chatelherault-Country-Park.webp"
+import headerImgNight from "photos/piping_centre_night.jpg"
 
-function Schedule() {
-    const [cookies] = useCookies(["language"])
+function Schedule({ time }) {
 
-    const { Heading, SubHeading } = title[selectLanguage(cookies)]
-    const scheduleItems = schedule[cookies.language]
+    console.log(title,time)
+    const { Heading, SubHeading } = title[time]
+    const scheduleItems = schedule[time]
 
     return (
         <>
             <Header
-                imageUrl={headerImg}
+                imageUrl={time === 'DAY' ? headerImgDay : headerImgNight}
                 Heading={Heading}
                 SubHeading={SubHeading}
             />

@@ -3,11 +3,11 @@ import React from "react"
 import { LANGUAGE } from "actions/constants"
 
 export default {
-    [LANGUAGE.EN]: [
+    'DAY': [
         {
             Title: () => <>Ceremony & Dinner</>,
-            Date: () => <>07/06/2024</>,
-            Time: () => '13:30',
+            Date: () => <>Friday 7<sup>th</sup> of June 2024</>,
+            Time: () => '1:30 pm',
             Location: () => <>Chatelherault </>,
             locationLink:
                 "https://www.sllcweddings.co.uk/info/1/chatelherault_country_park",
@@ -34,8 +34,8 @@ export default {
         },
         {
             Title: () => <>Reception</>,
-            Date: () => <>07/06/2024</>,
-            Time: () => '19:30',
+            Date: () => <>Friday 7<sup>th</sup> of June 2024</>,
+            Time: () => '7:00 pm',
             Location: () => <>The Piping Center</>,
             locationLink: "https://www.thepipingcentre.co.uk/",
             Address: () => (
@@ -53,6 +53,39 @@ export default {
                         We will continue the celebration where we will
                         be joined by additional guests at the piping center for a reception. 
                     </p>
+                </>
+            ),
+        },
+    ],
+
+    'NIGHT': [
+    
+        {
+            Title: () => <>Reception</>,
+            Date: () => <>Friday 7<sup>th</sup> of June 2024</>,
+            Time: () => '19:15',
+            Location: () => <>The Piping Center</>,
+            locationLink: "https://www.thepipingcentre.co.uk/",
+            Address: () => (
+                <>
+                    <p>30-34 McPhater St</p>
+                    <p>Glasgow</p>
+                    <p>G4 0HW</p>
+                </>
+            ),
+            mapLink:
+                "https://maps.app.goo.gl/EQFSf6eEMHVW3Vua9",
+            Details: () => (
+                <>
+                    <p>
+                        If guests can arrvive for 7.15pm. The couple will be cutting the cake and having their first dance at 7.40pm.
+                        There will be an evening buffet served at about 9.30 pm 
+                    </p>
+                    <p>Please RSVP with the link below</p>
+
+                    <a href="https://forms.gle/1AVf5o2n3ciem7kg6" className="btn btn-primary" role="button">
+                        RSVP Reception
+                    </a>
                 </>
             ),
         },

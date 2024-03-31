@@ -1,16 +1,7 @@
 import React from "react"
-import Button from 'react-bootstrap/Button';
+
 
 import { LANGUAGE } from "actions/constants"
-
-const hashtag = "jackandemily"
-
-const handleRSVP = () => {
-    // Assuming you want to navigate to an external RSVP link
-    window.location.href = 'https://forms.gle/LMAVogmYCW1u3o6S8';
-  };
-
-
 
 export default {
     [LANGUAGE.EN]: {
@@ -44,14 +35,20 @@ export default {
                 <hr/>
                 <br/>
                 <br/>
-                <h3>Please RSVP by April 8<sup>th</sup></h3>
-                <Button variant="primary" onClick={handleRSVP}>
-                    RSVP Now
-                </Button>
+                <h3>Please RSVP for Day time by April 8<sup>th</sup></h3>
+                <a href="https://forms.gle/LMAVogmYCW1u3o6S8" className="btn btn-primary" role="button">
+                    RSVP Ceremony
+                </a>
+                <hr/>
+                <br/>
+                <br/>
+                <h3>Please RSVP for reception by May 1<sup>st</sup></h3>
+                <a href="https://forms.gle/1AVf5o2n3ciem7kg6" className="btn btn-primary" role="button">
+                        RSVP Reception
+                </a>
             </div>
         ),
         Location: () => <span>Chatelherault </span>,
         locationLink: "https://maps.app.goo.gl/5pjB7PddMkEnceSQ6",
-        hashtag,
     }
 }

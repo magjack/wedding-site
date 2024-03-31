@@ -5,6 +5,7 @@ import { LANGUAGE } from "actions/constants"
 export default {
     [LANGUAGE.EN]: {
         schedule: () => <span>The Day</span>,
+        reception: () => <span>The Night</span>,
         travel: () => <span>Travel</span>,
         thingsToDo: () => <span>Things to Do</span>,
         faq: () => <span>FAQs</span>,

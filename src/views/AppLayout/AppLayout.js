@@ -7,7 +7,6 @@ import { Footer } from "components/Footer";
 import { Home } from "views/Home";
 import { Schedule } from "views/Schedule";
 import { Travel } from "views/Travel";
-import { ThingsToDo } from "views/ThingsToDo";
 import { FAQ } from "views/FAQ";
 import { Registry } from "views/Registry";
 
@@ -17,7 +16,8 @@ const AppLayout = () => (
       <Navigation />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/the-day" element={<Schedule />} />
+        <Route path="/the-day" element={<Schedule time={'DAY'} />} />
+        <Route path="/the-night" element={<Schedule time={'NIGHT'} />} />
         <Route path="/travel" element={<Travel />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/registry" element={<Registry />} />
