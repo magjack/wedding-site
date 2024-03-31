@@ -13,7 +13,7 @@ export default {
         Heading: () => <>The Night</>,
         SubHeading: () => (
             <span>
-                We will be celebrating our newly formed marriage with a reception at the Piping Centre in the city center
+                We will be celebrating our newly formed marriage with a reception at the Piping Centre in the city centre
             </span>
         ),
     }

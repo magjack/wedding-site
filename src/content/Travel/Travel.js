@@ -22,7 +22,7 @@ export default {
             Phone: null,
             Details: () => (
                 <>
-                    <p>The bus system we have no idea of and there is no direct bus from Glasgow City center but google shows it possible with a few changes.
+                    <p>The bus system we have no idea of and there is no direct bus from Glasgow city centre but google shows it possible with a few changes.
                         The bus stop is located next to the train station and has the same walk involved.
                     </p>
                 </>
@@ -47,13 +47,13 @@ export default {
         
         {
             Type: () => <>Lodging for Wedding</>,
-            Title: () => <>Glasgow City Center</>,
+            Title: () => <>Glasgow City Centre</>,
             Address: null,
             Phone: null,
             Details: () => (
                 <>
                     <p>
-                        The evening reception will be in the Piping center located in the north of the city center next to the theatre royal.
+                        The evening reception will be in the Piping centre located in the north of the city centre next to the theatre royal.
                         There is a number of hotels in a walkable distance from here.     
                     </p>
                 </>

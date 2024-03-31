@@ -36,7 +36,7 @@ export default {
             Title: () => <>Reception</>,
             Date: () => <>Friday 7<sup>th</sup> of June 2024</>,
             Time: () => '7:00 pm',
-            Location: () => <>The Piping Center</>,
+            Location: () => <>The Piping Centre</>,
             locationLink: "https://www.thepipingcentre.co.uk/",
             Address: () => (
                 <>
@@ -51,7 +51,7 @@ export default {
                 <>
                     <p>
                         We will continue the celebration where we will
-                        be joined by additional guests at the piping center for a reception. 
+                        be joined by additional guests at the piping centre for a reception. 
                     </p>
                 </>
             ),
@@ -64,7 +64,7 @@ export default {
             Title: () => <>Reception</>,
             Date: () => <>Friday 7<sup>th</sup> of June 2024</>,
             Time: () => '19:15',
-            Location: () => <>The Piping Center</>,
+            Location: () => <>The Piping Centre</>,
             locationLink: "https://www.thepipingcentre.co.uk/",
             Address: () => (
                 <>
