@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container"
 import { schedule, title } from "content/Schedule"
 import { Header } from "components/Header"
 import { Item } from "components/Item"
-import headerImgDay from "photos/Chatelherault-Country-Park.webp"
+import headerImgDay from "photos/Chatelherault-Country-Park.jpg"
 import headerImgNight from "photos/piping_centre_night.jpg"
 
 function Schedule({ time }) {
