@@ -42,7 +42,7 @@ export default {
                 <hr/>
                 <br/>
                 <br/>
-                <h3>Please RSVP for reception by May 1<sup>st</sup></h3>
+                <h3>Please RSVP for reception (Evening guests only) by May 1<sup>st</sup></h3>
                 <a href="https://forms.gle/1AVf5o2n3ciem7kg6" className="btn btn-primary" role="button">
                         RSVP Reception
                 </a>
