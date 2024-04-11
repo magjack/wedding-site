@@ -22,7 +22,7 @@ export default {
                 <h1 className="Details_location__96lrq">
                     <a
                         href="https://maps.app.goo.gl/5pjB7PddMkEnceSQ6"
-                        target="_blank"
+                        target="_blank" 
                         rel="noopener noreferrer"
                         >
                             <span>Chatelherault</span>
