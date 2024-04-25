@@ -36,8 +36,8 @@ export default {
                 <br/>
                 <br/>
                 <h3>Please RSVP for Day time by April 8<sup>th</sup></h3>
-                <a href="https://forms.gle/LMAVogmYCW1u3o6S8" className="btn btn-primary" role="button">
-                    RSVP Ceremony
+                <a href="" className="btn btn-primary" role="button">
+                    Now closed
                 </a>
                 <hr/>
                 <br/>
