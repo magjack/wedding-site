@@ -32,20 +32,26 @@ export default {
                 <br/>
                 <br/>
                 <h2>It will be worth the wait...</h2>
-                <hr/>
-                <br/>
-                <br/>
-                <h3>Please RSVP for Day time by April 8<sup>th</sup></h3>
-                <a href="" className="btn btn-primary" role="button">
-                    Now closed
-                </a>
-                <hr/>
-                <br/>
-                <br/>
-                <h3>Please RSVP for reception (Evening guests only) by May 1<sup>st</sup></h3>
+              
+                <h3>Please RSVP for reception (Evening guests only)</h3>
                 <a href="https://forms.gle/1AVf5o2n3ciem7kg6" className="btn btn-primary" role="button">
                         RSVP Reception
                 </a>
+                <hr/>
+                <br/>
+                <br/>
+                <h3>View and upload your photos here (requires google account to upload)</h3>
+                <a href="https://photos.app.goo.gl/DcEJnpi3C4oYzgAK8" className="btn btn-primary" role="button">
+                        Google photo upload
+                </a>
+                <hr/>
+                <br/>
+                <br/>
+                <h3>If you don't have a google account you can upload here but your photos will not be visble straight away</h3>
+                <a href="https://weduploader.com/upload/9a0AytchpGoZXttO" className="btn btn-primary" role="button">
+                        Not Google photo upload
+                </a>
+
             </div>
         ),
         Location: () => <span>Chatelherault </span>,
