@@ -1,4 +1,4 @@
-#This wedding webiste is hosted on aws amplify
+# This wedding webiste is hosted on aws amplify
 
 You can check it out [here](https://bit.ly/Emily_Jack_2024)
 
