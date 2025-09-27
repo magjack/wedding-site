@@ -1,3 +1,9 @@
+#This wedding webiste is hosted on aws amplify
+
+You can check it out [here](https://bit.ly/Emily_Jack_2024)
+
+[http://localhost:3000](http://localhost:3000)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
