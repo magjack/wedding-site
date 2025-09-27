@@ -2,6 +2,8 @@
 
 You can check it out [here](https://bit.ly/Emily_Jack_2024)
 
+It is purely a react project and guest were asked to rsvp via a google form that went straigh to a google sheet
+
 [http://localhost:3000](http://localhost:3000)
 
 # Getting Started with Create React App
