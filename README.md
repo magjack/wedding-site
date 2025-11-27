@@ -1,6 +1,6 @@
 # This wedding webiste is hosted on aws amplify
 
-You can check it out [here](https://bit.ly/Emily_Jack_2024)
+<!-- You can check it out [here](https://bit.ly/Emily_Jack_2024) This got blocked by bitly appeal is in -->
 
 It is purely a react project and guest were asked to rsvp via a google form that went straigh to a google sheet
 
